@@ -31,3 +31,8 @@ Once all athletes have been chosen (May 24th 2020), based on the learning done f
 #### Initial Thoughts
 I will try to focus first on a single disciplin, bouldering, since this is the discipline where I already have the best understanding of the scoring system.
 The results of multiple bouldering competitions can be found on the [International Federation of Sport Climbing Homepage](https://www.ifsc-climbing.org/), using the calendar results from previous years (prior to 2018) can also be found. 
+
+#### Work Flow
+* Collect data from 2015-today of all men and women bouldering competitions - should there be some sort of penalty for older data?
+* Use pandas to clean the data - maybe some synthetic features taking into account the age of the athlete etc.?
+* Use tenforflow + keras to construct a neural network to predictic the results of a future set of bouldering competitions
